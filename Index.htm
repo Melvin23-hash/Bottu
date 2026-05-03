@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salem Deals</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f5f5;
+            text-align: center;
+        }
+        h1 {
+            background: #ff6600;
+            color: white;
+            padding: 15px;
+        }
+        .deal {
+            background: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        .call {
+            background: green;
+        }
+        .whatsapp {
+            background: #25D366;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>🔥 Salem Deals</h1>
+
+<div class="deal">
+    <h2>Hotel Offer 🍔</h2>
+    <p>Buy 1 Get 1 Free Burger</p>
+    <button class="call" onclick="callNow()">📞 Call</button>
+    <button class="whatsapp" onclick="whatsappNow()">💬 WhatsApp</button>
+</div>
+
+<div class="deal">
+    <h2>Gym Offer 💪</h2>
+    <p>50% Discount Membership</p>
+    <button class="call" onclick="callNow()">📞 Call</button>
+    <button class="whatsapp" onclick="whatsappNow()">💬 WhatsApp</button>
+</div>
+
+<script>
+function callNow() {
+    window.location.href = "tel:9876543210";
+}
+
+function whatsappNow() {
+    window.location.href = "https://wa.me/919876543210";
+}
+</script>
+
+</body>
+</html>
